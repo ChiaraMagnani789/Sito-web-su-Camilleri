@@ -1,0 +1,173 @@
+<!DOCTYPE html> 
+<!--Documento HTML radice-->
+
+<html>
+<!--Documento HTML ha un HEAD  e un BODY-->
+   <head>
+      <title>Catalogo</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Pagina web dedicata a Andrea Camilleri">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="Chiara Magnani">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="stile/style.css">
+      <link rel="stylesheet" href="font-family: 'Alegreya SC';font-size: 22px;
+      letter-spacing: 6px">
+      <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+      <!--libreria di fontawesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+<!--body contiene il documento-->   
+  <body>
+    <!--navbar di navigazione primaria-->
+    <div class="navbar">
+    <a href="index.html"><img src="favicon/favicon-16x16.png">
+    <a href="index.html">Home<i class="fa fa-home"></i></a>
+    <a href="#progetto">Il Progetto<i class="fa fa-lightbulb-o"></i></a>
+    <div class="dropdown">
+              <button class="dropbtn">Catalogo
+              <i class="fa fa-caret-down"></i>
+              </button>
+          <div class="dropdown-content">
+               <a href="Narrativa.html">Narrativa</a>
+               <a href="#">Teatro</a>
+               <a href="#">Poesia</a>
+          </div>
+          </div>
+          <a href="#home">Accedi<i class="fa fa-key"></i></a>
+      </div>
+    </div>
+<div class="search-bar">
+        <form action="#" method="get">
+            <input type="text" placeholder="Cerca..." name="search" class="search-input">
+            <button type="submit" class="search-button">Cerca</button>
+        </form>
+</div>
+  <div class="metadati">
+  <!--briciole di pane-->
+  <ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li>Narrativa</li>
+  </ul>
+  <h1 div class="h1">Anteprima</h1></div>
+  </div>
+<!--filtro dropdown-->
+<div class="dropdown-filtri">
+  <button class="dropbtn-filtri">Ordina per</button>
+  <div class="dropdown-content-filtri">
+  <a href="timeline.html">Data</a>
+  <a href="#">Genere</a>
+  <a href="#">Lettera</a>
+  <a href="#">Editore</a>
+  </div>
+</div>
+<div id="oggetto1">
+<div class="card">
+  <img src="img/ora-dimmi-di-te.jpeg" alt="Ora dimmi di te" style="width:60%">
+  <div class="container">
+   <div class="categorieDC">
+<h2><span class="DC.Title"><strong>Ora dimmi di te</strong></span></h2>
+<!--<span class="DC.Creator">Andrea Camilleri</span>-->
+<span class="DC.Date">Data:<strong>2018</strong></span>
+</div>
+<span class="DC.Genere">Genere:<strong>Romanzo autobiografico</strong></span>
+</div>
+<div class="card-button">
+<a href="item.html">Visualizza scheda</a>
+</div>
+</div>
+</div>
+</div>
+<!--Card-->
+<div class="card">
+  <img src="img/la-forma-dell'acqua.jpeg" alt="La forma dell'acqua" style="width:60%">
+  <div class="container">
+   <div class="categorieDC">
+<h2><span class="DC.Title"><strong>La forma dell'acqua</strong></span></h2>
+<!--<span class="DC.Creator">Andrea Camilleri</span>-->
+<span class="DC.Date">Data:<strong>1994</strong></span>
+</div>
+<span class="DC.Genere">Genere:<strong>Romanzo giallo</strong></span>
+</div>
+<div class="card-button">
+<a href="item.html">Visualizza scheda</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+  <img src="img/il-birraio-di-preston.jpeg" alt="Il birraio di Preston" style="width:60%">
+  <div class="container">
+   <div class="categorieDC">
+<h2><span class="DC.Title"><strong>Il birraio di Preston</strong></span></h2>
+<!--<span class="DC.Creator">Andrea Camilleri</span>-->
+<span class="DC.Date">Data:<strong>1995</strong></span>
+</div>
+<span class="DC.Genere">Genere:<strong>Romanzo storico</strong></span>
+</div>
+<div class="card-button">
+<a href="item.html">Visualizza scheda</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+  <img src="img/l'intermittenza.jpeg" alt="L'intermittenza" style="width:60%">
+  <div class="container">
+   <div class="categorieDC">
+<h2><span class="DC.Title"><strong>L'intermittenza</strong></span></h2>
+<!--<span class="DC.Creator">Andrea Camilleri</span>-->
+<span class="DC.Date">Data:<strong>2010</strong></span>
+</div>
+<span class="DC.Genere">Genere:<strong>Thriller</strong></span>
+</div>
+<div class="card-button">
+<a href="item.html">Visualizza scheda</a>
+</div>
+</div>
+</div>
+</div>
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5 ...</a>
+  <a href="#">&raquo;</a>
+</div>
+<style>
+         pagination{
+            margin:auto;
+         }
+      </style>
+
+<footer>
+        <!--box per racchiudere il footer-->
+ <div class="box">
+
+      <p>&copy; Tutti i diritti sui contenuti di questo sito (nomi, immagini, testi ed altro) sono di proprietà dei rispettivi autori e/o case editrici, sotto la tutela delle leggi internazionali sul copyright/trademark.
+
+      Questo progetto è totalmente privo di scopi di lucro da parte dell'autore. Lo scopo è puramente amatoriale e perciò non è assolutamente affiliato o dipendente da alcun editore.</p>
+      
+<h3>Seguici su</h3>
+  <p>
+    <div class="social">
+    <a href="#"><div class="Facebook"><i class="fa fa-facebook"></i></div></a><a href="#"><div class="X" ><i class="fa fa-times"></i></a></div><a href="#"><div class="Instragram"><i class="fa fa-instagram"></i></a></div></a></a>
+    </div>
+
+   <div class= "credits">
+      <a href="#">Credits</a> |
+      <a href="Web-Project-Plan.html" target="blank">Web Project Plan</a> |
+      <a href="#">Informazioni</a>
+   </div>
+  </p>
+</div>
+</footer>
+
+</div>
+
+
+</body>

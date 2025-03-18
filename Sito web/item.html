@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<!--Documento HTML radice-->
+
+<html>
+<!--Documento HTML ha un HEAD  e un BODY-->
+   <head>
+      <title>Item</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Pagina web dedicata a Andrea Camilleri">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="Chiara Magnani">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="stile/style.css">
+      <link rel="stylesheet" href="font-family: 'Alegreya SC';font-size: 22px;
+      letter-spacing: 6px">
+      <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+      <!--libreria di fontawesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/your-fontawesome-key.js" crossorigin="anonymous"></script>
+          <!--java-->
+      <script src="js/java.js" defer></script>
+
+   </head>
+   <!--BODY contiene il documento-->
+   <body>
+<!--barra di navigazione-->
+      <div class="navbar">
+        <a href="index.html"><img src="favicon/favicon-16x16.png">
+        <a href="index.html">Home<i class="fa fa-home"></i></a>
+        <a href="#progetto">Il Progetto<i class="fa fa-lightbulb-o"></i></a>
+        <div class="dropdown">
+              <button class="dropbtn">Catalogo
+              <i class="fa fa-caret-down"></i>
+              </button>
+                  <div class="dropdown-content">
+                      <a href="Narrativa.html">Narrativa</a>
+                      <a href="#">Teatro</a>
+                      <a href="#">Poesia</a>
+                  </div>
+        </div>
+         <a href="#home">Accedi<i class="fa fa-key"></i></a>
+      </div>
+<!--breadcrumps-->
+<div class="categorieDC">
+   <ul class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Narrativa.html">Narrativa</a></li>
+  <li>Ora dimmi di te</li>
+</ul>
+</div>
+<div class="container">
+    
+      <p><p><a href="img/ora-dimmi-di-te.jpeg" target="_blank"> <img src="img/ora-dimmi-di-te.jpeg" alt="Copertina del libro Ora dimmi di te, lettera a Matilda" width="500px" height="650px"> </a></p></p>
+<div class="container-elenco">
+   <div class="description">
+    <ul>
+      <li><span class="DC.Title">Titolo:<strong>Ora dimmi di te.</strong></span></li>
+      <li><span class="DC.Sub-Title">Sottotitolo:<strong>Lettera a Matilda</strong></span></li>
+      <li><span class="DC.Creator">
+         <!--aggiungi collegamento alla Biografia-->
+      Autore: <a href="index.html"><strong>Andrea Camilleri</strong></a>
+      </span></li>
+      <li><span class="DC.Description">Descrizione: <strong>Romanzo autobiografico</strong></span></li>
+      <li><span class="DC.Publisher">Editore:<strong>Bompiani</strong></span></li>
+      <li><span class="DC.Date">Data di pubblicazione: <strong>2018</strong></span></li>
+      <li><span class="DC.Type">Tipo:<strong>libro</strong></span></li>
+      <li><span class="DC.Format">Formato:<strong>cartaceo e ebook</strong></span></li>
+      <li><span class="DC.Identifier">Codice identificativo:<strong>Isbn 9788845297755</strong></span></li>
+      <li><span class="DC.Language">Lingua:<strong>italiano</strong></span></li>
+      <li><span class="DC.Pages">Pagine:<strong>112</strong></span></li>
+   </ul>
+  </div>
+</div>
+</div>
+
+
+
+
+<p><h3>Trama</h3>
+   Cosa rimarrà di noi nella memoria di chi ci ha voluto bene? Come verrà raccontata la nostra vita ai nipoti che verranno?
+Andrea Camilleri sta scrivendo quando la pronipotina Matilda si intrufola a giocare sotto il tavolo, e lui pensa che non vuole che siano altri - quando lei sarà grande - a raccontarle di lui.
+Così nasce questa lettera, che ripercorre una vita intera con l'intelligenza del cuore: illuminando i momenti secondo il ruolo che hanno avuto nel rendere Camilleri lo scrittore e l'uomo che tutti amiamo.
+Uno spettacolo teatrale alla presenza del gerarca Pavolini e una strage di mafia a Porto Empedocle, una straordinaria lezione di regia all'Accademia Silvio D'Amico e le parole di un vecchio attore dopo le prove, l'incontro con la moglie Rosetta e quello con Elvira Sellerio...
+Con humour e limpidezza, queste pagine ripercorrono la storia italiana del Novecento attraverso quella di un uomo innamorato della vita e dei suoi personaggi. Ogni episodio è un modo per parlare di ciò che rende l'esistenza degna di essere vissuta: le radici, l'amore, gli amici, la politica, la letteratura. Con il coraggio di raccontare gli errori e le disillusioni, con la commozione di un bisnonno che può solo immaginare il futuro e consegnare - a Matilda e a noi - la lanterna preziosa del dubbio.</p>
+
+    <!-- Sezione interazioni -->
+    <div class="interazioni">
+        <button class="like-btn">
+            <span><i class="fa fa-thumbs-up"></i>Like</span>
+        </button>
+        <button class="comment-btn">
+            <i class="fa fa-thumbs-down"></i><span>Dislike</span>
+        </button>
+        <button class="share-btn">
+            <i class="fa fa-share"></i> <span>Condividi</span>
+        </button>
+    </div>
+
+    <!-- Sezione commenti -->
+    <div class="commenti">
+        <input type="text" placeholder="Scrivi un commento..." class="comment-input">
+        <button class="send-comment"><i class="fa fa-paper-plane"></i></i></button>
+    </div>
+
+</div>
+
+<footer>
+        <!--box per racchiudere il footer-->
+ <div class="box">
+
+      <p>&copy; Tutti i diritti sui contenuti di questo sito (nomi, immagini, testi ed altro) sono di proprietà dei rispettivi autori e/o case editrici, sotto la tutela delle leggi internazionali sul copyright/trademark.
+
+      Questo progetto è totalmente privo di scopi di lucro da parte dell'autore. Lo scopo è puramente amatoriale e perciò non è assolutamente affiliato o dipendente da alcun editore.</p>
+      
+<h3>Seguici su</h3>
+  <p> 
+      <!--come faccio a mettere allineate le icone?-->
+      <div class="social">
+      <a href="#"><div class="Facebook"><i class="fa fa-facebook"></i></div></a><a href="#"><div class="X" ><i class="fa fa-times"></i></a></div><a href="#"><div class="Instragram"><i class="fa fa-instagram"></i></a></div></a></a>
+      </div>
+
+   <div class= "credits">
+      <a href="#">Credits</a> |
+      <a href="Web-Project-Plan.html" target="blank">Web Project Plan</a> |
+      <a href="#">Informazioni</a>
+    </div>
+  </p>
+</div>
+</footer>
+
+</body>
